@@ -4,46 +4,32 @@
     box-sizing:border-box;
 }
 
-<<<<<<< HEAD
-=======
 html{
     scroll-behavior:smooth;
 }
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 body{
     background:#0f0f0f;
     color:white;
     font-family:'Poppins', sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 /* NAVBAR */
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 .navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 50px;
-<<<<<<< HEAD
-    background:black;
-=======
     background:rgba(0,0,0,0.8);
     backdrop-filter:blur(10px);
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
     position:sticky;
     top:0;
     z-index:1000;
 }
 
 .logo{
-<<<<<<< HEAD
-    font-size:28px;
-=======
     font-size:30px;
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
     font-weight:700;
     color:#e50914;
 }
@@ -58,21 +44,15 @@ body{
     text-decoration:none;
     color:white;
     transition:0.3s;
-<<<<<<< HEAD
-=======
     font-size:16px;
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 }
 
 .nav-links a:hover{
     color:#e50914;
 }
 
-<<<<<<< HEAD
-=======
 /* HERO SECTION */
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 .hero{
     height:90vh;
     background:url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200') center/cover;
@@ -95,11 +75,8 @@ body{
     margin-bottom:20px;
 }
 
-<<<<<<< HEAD
-=======
 /* BUTTON */
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 button{
     padding:14px 30px;
     background:#e50914;
@@ -113,39 +90,24 @@ button{
 
 button:hover{
     background:#ff1e28;
-<<<<<<< HEAD
-}
-
-=======
     transform:scale(1.05);
 }
 
 /* MOVIES */
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 .movies-section{
     padding:50px;
 }
 
 .movies-section h2{
-<<<<<<< HEAD
-    margin-bottom:30px;
-    font-size:32px;
-=======
     font-size:35px;
     margin-bottom:30px;
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 }
 
 .movies-container{
     display:flex;
-<<<<<<< HEAD
-    gap:20px;
-    flex-wrap:wrap;
-=======
     flex-wrap:wrap;
     gap:25px;
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 }
 
 .movie-card{
@@ -154,10 +116,7 @@ button:hover{
     border-radius:15px;
     overflow:hidden;
     transition:0.3s;
-<<<<<<< HEAD
-=======
     animation:fadeIn 1s ease;
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 }
 
 .movie-card img{
@@ -168,14 +127,6 @@ button:hover{
 
 .movie-card h3{
     padding:15px;
-<<<<<<< HEAD
-}
-
-.movie-card:hover{
-    transform:translateY(-10px);
-}
-
-=======
     font-size:18px;
 }
 
@@ -237,7 +188,6 @@ footer{
 
 /* RESPONSIVE */
 
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 @media(max-width:768px){
 
     .navbar{
@@ -257,17 +207,5 @@ footer{
     .movies-container{
         justify-content:center;
     }
-<<<<<<< HEAD
-=======
 
-    form{
-    display:flex;
-    flex-direction:column;
-    }
-
-    form .search-bar{
-    width:100%;
-    }
-
->>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
 }
