@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+alert("Welcome to StreamVerse OTT!");
+=======
 console.log("StreamVerse OTT Running Successfully");
 
 const buttons = document.querySelectorAll("button");
@@ -30,3 +33,4 @@ movieCards.forEach(card => {
     });
 
 });
+>>>>>>> de73a583b2c7f337b8e2e1c626e336c0e50ec7d8
